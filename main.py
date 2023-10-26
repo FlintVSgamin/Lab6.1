@@ -1,7 +1,7 @@
 def menu():
     print('Menu\n-------------\n1. Encode\n2. Decode\n3. Quit')
 
-
+#Aaron T
 def encode(original_pass):
     result = ''
     for i in range(len(original_pass)):
@@ -11,11 +11,7 @@ def encode(original_pass):
 
 
 def decode(encoded_pass):
-    result = ''
-    for i in range(len(encoded_pass)):
-        num = encoded_pass[i]
-        result += chr((ord(num) - 3))
-    return result
+    pass
 
 
 if __name__ == '__main__':
