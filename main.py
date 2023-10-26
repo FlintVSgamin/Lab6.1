@@ -11,7 +11,10 @@ def encode(original_pass):
 
 
 def decode(encoded_pass):
-    pass
+    output = ''
+    for x in encoded_pass:
+        output += str(int(x)+7)[-1]
+    return output
 
 
 if __name__ == '__main__':
